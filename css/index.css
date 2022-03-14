@@ -1,0 +1,697 @@
+body{
+background-color: rgb(104, 40, 40);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+}
+.header-conteiner{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.hederitem{
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+}
+.brick{ 
+    width: 78px;
+    height: 78px;
+    transition: 3s  ease-in-out;
+}
+.brick:hover{
+    left:50%;
+    transform:rotate(720deg) translateX(-50%)
+}
+.name{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #010101;
+    
+    }
+    
+.nomer{
+    
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    }
+    .phone{
+    width: 50px;
+    transition: .3s  ease-in-out;
+    }
+    .phone:hover{
+        transform: rotate(135deg);
+    }
+.enter{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-image: url("../image/stena.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+    display: block;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 116px;
+    
+
+}
+
+.ebayt{
+    display:flex;
+    justify-content: space-evenly;
+    gap: 90px;
+    padding: 150px;
+    align-items: center;
+}
+.text_a{
+ 
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 40px;
+color: #000000;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgb(255, 255, 255);
+
+}
+.cartinka{
+    width: 550px;
+    height: 550px;
+    border: 10px solid #ff921e;
+
+}
+
+
+.enter:hover {
+    transform: scale(1.1);
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 100px;
+    gap: 2px;
+    width: 100%;
+    height: 570px;
+    background-color: rgb(70, 31, 31);
+}
+
+
+
+.box_z{
+    border: 10px solid #56382d;
+    height: 350px;
+}
+.box_x{
+    border: 10px solid #56382d;
+    height: 350px;
+}
+.box_l{
+    border: 10px solid #56382d;
+    height: 350px;
+}
+.hover-effect-btn {
+    position: relative;
+    width: 31%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Настройка цвета и прозрачности для блока с заголовком */
+    transition: background 0.5s ease;
+  }
+  .hover-effect-btn:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, 0.9); /* Настройка цвета и прозрачности для блока с заголовком при наведении */
+  }
+  .title {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Russo One';
+    font-style: normal;
+    width: 100%;
+    left: 0;
+    top: 25%; /* Отступ сверху */
+    font-size: 1.900em; /* Размер текста заголовка */
+    text-align: center;
+    text-transform: uppercase; /* Заглавные буквы */
+    color: white; /* Цвет заголовка */
+    z-index: 1;
+    transition: top .5s ease;
+  }
+  .hover-effect-btn:hover .title {
+    top: 10%; /* Отступ сверху при наведении */
+  }
+  .button {
+    position: absolute;
+    width: 100%;
+    left:0;
+    top: 65%; /* Отступ сверху */
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  .button a {
+    padding: 15px 40px; /* Отступ */
+    text-decoration: none;
+    font-family: 'Russo One';
+    font-style: normal;
+    text-align: center;
+    background: #ff921e; /* Цвет кнопки */
+    color: white; /* Цвет текста */
+    border: 1px solid white; /* Ширина, стиль и цвет границы */
+    z-index: 1; 
+  }
+  .hover-effect-btn:hover .button {
+    opacity: 1;
+  }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+ .box_one{
+    border: 10px solid #56382d;
+    height: 350px;
+ }
+ .box_one:hover{
+
+ }
+.text_one{
+    
+    text-decoration: none;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    
+}
+
+.text_two{
+
+    text-decoration: none;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.sec{
+
+}
+.komment{
+    margin-left: 40%;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 116px;
+    color: #000000;
+}
+
+.kom{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    
+}
+
+.text_q{
+    text-decoration: none;
+    font-family: 'Russo One';
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 40px;
+color: rgb(255, 255, 255);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.box_a{
+    width: 400px;
+    height: 400px;
+    background-image: url("../image/chel_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    border: 10px solid #00ffdd;
+}
+
+.kom_b{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+    
+}
+.text_w{
+    text-decoration: none;
+    font-family: 'Russo One';
+font-style: normal;
+font-weight: 100;
+font-size: 35px;
+line-height: 40px;
+color: rgb(255, 255, 255);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.box_b{
+    width: 400px;
+    height: 400px;
+    background-image: url("../image//chel_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    border: 10px solid #00ffdd;
+}
+
+.kom_c{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    
+}
+.text_e{
+    text-decoration: none;
+    font-family: 'Russo One';
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 40px;
+color: rgb(255, 255, 255);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.box_c{
+    width: 400px;
+    height: 400px;
+    background-image: url("../image/chel_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    border: 10px solid #00ffdd;
+}
+
+
+.down{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;  
+    flex-wrap: wrap;
+    gap: 2px;
+    padding: 40px;
+    height: 300px;
+    background-color: #000000;
+    
+}
+.help ,.user,.yers ,.adres,.nomer_a,.gmail{
+    text-decoration: none;
+    font-family: 'Russo One';
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 20px;
+color: rgba(255, 255, 255, 0.13);
+
+}
+
+/*
+.phone{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1430px;
+top: 16px;
+transition: .3s  ease-in-out;
+}
+.phone:hover{
+    transform: rotate(135deg);
+}
+.name{
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+color: #010101;
+}
+
+.nomer{
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+color: #000000;
+}
+
+.naming{
+    position: absolute;
+    height: 154px;
+    width: 1540px;
+    left: 190px;
+    top: 468px;
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 116px;
+text-align: center;
+
+color: #000000;
+}
+.stena{
+    position: absolute;
+width: 100vw;
+height: 935px;
+left: 0px;
+top: 89px;
+}
+.block{
+    background-image: url("/image/myzhik.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 953px;
+    height: 764px;
+    left: 907px;
+    top: 1295px;
+}
+.text{
+    position: absolute;
+width: 773px;
+height: 924px;
+left: 34px;
+top: 1145px;
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+}
+.border{
+    position: absolute;
+width: 100vw;
+height: 817px;
+left: 0px;
+top: 2237px;
+
+background: #6F1515;
+}
+.block_one{
+  position: absolute;
+width: 516px;
+height: 510px;
+left: 75px;
+top: 155px;
+
+background: #C4C4C4;
+}
+.block_two{
+    position: absolute;
+    width: 516px;
+    height: 510px;
+    left: 702px;
+    top: 155px;
+    
+    background: #C4C4C4;
+
+}
+
+.block_tree{
+    position: absolute;
+    width: 516px;
+    height: 510px;
+    left: 1329px;
+    top: 155px;
+    background: #C4C4C4;
+}
+
+.text_one{
+    position: absolute;
+width: 1727px;
+height: 154px;
+left: 75px;
+top: 3285px;
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+}
+
+.block_a{
+    position: absolute;
+    width: 594px;
+    height: 594px;
+    left: 75px;
+    top: 3669px;
+}
+
+.block_b{
+    position: absolute;
+    width: 594px;
+    height: 594px;
+    left: 1251px;
+    top: 4493px;
+}
+
+.block_c{
+    position: absolute;
+    width: 594px;
+    height: 594px;
+    left: 75px;
+    top: 5317px;
+}
+
+.text_a{
+    position: absolute;
+width: 1062px;
+height: 77px;
+left: 781px;
+top: 3927px;
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+}
+
+.text_b{
+    position: absolute;
+    width: 1062px;
+    height: 77px;
+    left: 34px;
+    top: 4751px;
+    
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.text_c{
+    position: absolute;
+    width: 1062px;
+    height: 77px;
+    left: 836px;
+    top: 5614px;
+    
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.down{
+    position: absolute;
+width: 100vw;
+height: 270px;
+left: 0px;
+top: 6300px;
+
+background: #000000;
+}
+
+.text_q{
+    position: absolute;
+width: 600px;
+height: 43px;
+left: 7.2%; 
+bottom: -5400px;
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.text_w{
+    position: absolute;
+    width: 700px;
+    height: 43px;
+    left: 6%;
+    bottom: -5500px;
+    
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.text_e{
+    position: absolute;
+width: 400px;
+height: 43px;
+left: 134px;
+bottom: -5600px;
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.text_r{
+    
+position: absolute;
+width: 216px;
+height: 43px;
+left: 1300px;
+bottom: -5400px;
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.text_t{
+
+position: absolute;
+width: 314px;
+height: 43px;
+left: 1320px;
+bottom: -5500px;
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.text_y{
+    position: absolute;
+    width: 403px;
+    height: 43px;
+    left: 1285px;
+    bottom: -5600px;
+    
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #FFFFFF;
+     
+}
+*/
